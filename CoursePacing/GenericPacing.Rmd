@@ -137,29 +137,25 @@ A well-written paper (without a visible name) that convinces you the author has 
 * Work on **Research Plan Assignment** PDS.
 * Peer reviews for **Citation Assignment** are due NLT 11 PM Tuesday.
 * **Research Plan Assignment** PDS is due NLT 5 PM Friday (Sep 11).  Submit assignment
-via [http://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Research Plan Assignment** is [http://www.crowdgrader.org/](http://www.crowdgrader.org/)
+via [http://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Research Plan Assignment** is [https://www.crowdgrader.org/crowdgrader/venues/view_venue/1315](https://www.crowdgrader.org/crowdgrader/venues/view_venue/1315)
          
 
 #### Grading Rubric for **Research Plan Assignment** (PR#2)
 
-1.	Does the document open without problems?  (0.25)
-2.	Is the grammar and punctuation acceptable?  (0.25)
-3.	Is the title a concise statement of the main topic?  (0.25)
-4.	Does the title identify the actual variables under investigation and the relationship between them? (0.25)
-5.	 Does the introduction describe the question the author intends to investigate and how their research relates to other work in the field?  (0.25)
-6.	Does the literature review justify the proposed research by identifying a hole in existing scholarship?  (0.25)
-7.	Does the introduction build to and conclude with the research questions or study objectives the author proposes to address?  (0.25)
-8.	Is the literature review supported with at least five citations? (0.25) 
-9.	Is there a **Methods** section that describes how the research was conducted?  (0.25)
-10.	Does the **Methods** section include a discussion of the _sample_, _measures_, and _procedures_. (0.50)
-11.	Is there an **Implications/Predicted Results** section that discusses real implications linked to possible results? (0.25)
+Field      | Excellent          |  Competent      |  Needs Work
+-----------|--------------------|-----------------|-------------------
+Document (*.html) opens without issue and was created using an *Rmd file | Document opens without issue and no author name is present (0.6) | Document opens but author's name is visible (0.4) | Document does not open (0.1)
+Clarity | Few errors of grammar and usage; any minor errors do not interfere with meaning.  Language style and word choice are highly effective and enhance meaning.  Style and word choice are appropriate for the assignment. The title is a concise statement of the main topic that identifies the actual variables under investigation and the relationship between them. (0.6) | Some errors of grammar and usage; errors do not interfere with meaning.  Language style and word choice are for the most part effective and appropriate for the assignment.  The title is not a concise statement of the main topic or does not identify the variables under investigation and the relationship between them (0.4)  | Major errors of grammar and usage make meaning unclear.  Language style and word choice are ineffective and/or inappropriate.  The title is does not identify the variables under investigation of the relationship between them (0.1) 
+Introduction | The introduction describes the question the author intends to investigate and how their research relates to other work in the field.  The literature review justifies the proposed research by identifying a hole in existing scholarship. (0.6) |  The introduction describes the question the author intends to investigate and how their research relates to other work in the field.  The literature review does not justify the proposed research by identifying a hole in existing scholarship. (0.4) | The introduction does not describe the proposed research or identify a hole in existing research. (0.1)
+Organization | There is a **Methods** section that describes how the research was conducted with discussion of the _sample_, _measures_, and _procedures_.  There is an **Implications/Predicted Results** section that discusses real implications linked to possible results. (0.6) | There is a **Methods** section that describes how the research was conducted but no discussion of the _sample_, _measures_, and _procedures_.  There is an **Implications/Predicted Results** but no discussion of real implications linked to possible results. (0.4) | The **Methods** and **Implications/Predicted Results** sections are missing. (0.1)
+Sources | five or more sources less than 10 years old --- references are automatically generated from a Zotero BibTeX file (0.6) | two or more sources less than 10 years old --- references are automatically generated from a Zotero BibTeX file (0.4) | fewer than two sources that are less than 10 years old --- references are not automatically generated from a Zotero BibTeX file (0.1)
 
-A well-written paper that convinces you the author can fill a gap in the existing scholarship, has a title that is a concise statement of the main topic and identifies the actual variables under investigation and the relationship between them, has an introduction supported with at least five references, has a Methods section that describes the sample, measures, and procedures, and has a section that discusses real implications linked to possible results should receive a 3.  A submission that satisfies two of the three criteria perfectly or most but not all of the three criteria should receive a 2.  A submission that satisfies only one of the three criteria should receive a 1.  If the submission does not render or the submitter did not submit the correct assignment, they should receive a 0.
+A well-written paper that convinces you the author can fill a gap in the existing scholarship, has a title that is a concise statement of the main topic and identifies the actual variables under investigation and the relationship between them, has an introduction supported with at least five references, has a Methods section that describes the sample, measures, and procedures, and has a section that discusses real implications linked to possible results should receive a 3.  If the submission does not render or the submitter did not submit the correct assignment, they should receive a 0.
 
 #### Optional
 * Read chapter 5 of [Reproducible Research with R and RStudio](https://github.com/christophergandrud/Rep-Res-Book).
 
-### Week 5: (Sep 14, 16)
+### Week 5: (Sep 15, 17)
 
 * Read Chapters 6 and 7 of PDS (Working with Data and Data Management).
 * This week you will "work with data".
@@ -169,7 +165,9 @@ A well-written paper that convinces you the author can fill a gap in the existin
 * Watch the first 30 minutes of [The Grammar of Graphics and Data Science](https://www.rstudio.com/resources/webinars/archives/).
 * Watch the [Working with Data video](https://www.youtube.com/watch?v=d9TgAspq9bA&index=52&list=PLDEF0B9CBD27AD37E) (41 min).
 * Watch the [Data Management video](https://www.youtube.com/watch?v=thGk4CUEXQ8&list=PLDEF0B9CBD27AD37E&index=53) (39 min).
+* Read the vignette in the `PDS` package.
 * Complete you peer grading evaluations for the **Research Plan Assignment** NLT 11 PM Tuesday.
+
 
 **The Data Management Assignment is Challenging and will require many hours of your time---so please start now --- not next week when it is due**
 
@@ -180,37 +178,32 @@ A well-written paper that convinces you the author can fill a gap in the existin
 
 * Read/review Chapters 6 and 7 of PDS as needed.
 * This week you will "Manage your Data" based on your research proposal.
-* Submit via [http://www.crowdgrader.org](http://www.crowdgrader.org) the **Data Management Assignment** NLT 5 PM Friday (Sep 25). Directions: Select three _secondary_ categorical variables from the data set you are using.  Recode your data to create factors with appropriate labels.  Create a barplot for each of your factors, and write a sentence or two explaining each barplot.  Show all `R` code used to manage your data and used to create your barplots with `R` code chunks in your `*.Rmd` file.  Submit the resulting `*.html` file to crowdgrader.  The direct link for the **Data Management Assignment** is [http://www.crowdgrader.org/](http://www.crowdgrader.org/).  
+* Submit via [http://www.crowdgrader.org](http://www.crowdgrader.org) the **Data Management Assignment** NLT 5 PM Friday (Sep 25). Directions: Select three _secondary_ categorical variables from the data set you are using.  Recode your data to create factors with appropriate labels.  Create a barplot for each of your factors, and write a sentence or two explaining each barplot.  Show all `R` code used to manage your data and used to create your barplots with `R` code chunks in your `*.Rmd` file.  Submit the resulting `*.html` file to crowdgrader.  The direct link for the **Data Management Assignment** is [https://www.crowdgrader.org/crowdgrader/venues/view_venue/1394](https://www.crowdgrader.org/crowdgrader/venues/view_venue/1394).  
 
 #### Grading Rubric for **Data Management Assignment** (PR#3)
 
-1. Does the *.html file include three categorical variables? 0/1
 
-2. Is there a barplot for each categorical variable with appropriate labels and R code? 0/1
-
-3. Are original variables recoded to readable names and numeric values recoded appropriately? 0/1
-
-
-* Push your "Research Proposal" to your private repository NLT 5 PM Friday (Sep 27) and resulting `*.html` files.
-
-I will use the same grading rubric (below) you used in the peer evaluation phase of the research proposals.  I will also check to make sure the document compiles based on the `*.Rmd` and `*.bib` files in your **Research Proposal** folder.  
-
-#### Grading Rubric for **Research Proposal**
-
-1.	Does the document open without problems?  (0.25)
-2.	Is the grammar and punctuation acceptable?  (0.25)
-3.	Is the title a concise statement of the main topic?  (0.25)
-4.	Does the title identify the actual variables under investigation and the relationship between them? (0.25)
-5.	 Does the introduction describe the question the author intends to investigate and how their research relates to other work in the field?  (0.25)
-6.	Does the literature review justify the proposed research by identifying a hole in existing scholarship?  (0.25)
-7.	Does the introduction build to and conclude with the research questions or study objectives the author proposes to address?  (0.25)
-8.	Is the literature review supported with at least five citations? (0.25) 
-9.	Is there a **Methods** section which describes how the research was conducted?  (0.25)
-10.	Does the **Methods** section include a discussion of the _sample_, _measures_, and _procedures_. (0.50)
-11.	Is there an **Implications/Predicted Results** section that discusses real implications linked to possible results? (0.25)
+Field      | Excellent          |  Competent      |  Needs Work
+-----------|--------------------|-----------------|-------------------
+Document (*.html) opens without issue and was created using an *Rmd file | Document opens without issue and no author name is present (0.5) | Document opens but author's name is visible (0.3) | Document does not open (0.1)
+Purpose/Variables | The purpose and goals of the study are clearly explained. The variables (names) and data set (name) the author is working with are described (0.5) |  The purpose or goals of the study are unclear. Only one of either the variables (names) or the data set (name) are discussed. (0.3) | No discussion of the purpose or goals of the study.  Neither the variables (names) or data set (name) are discussed. (0.1)
+Clarity | Few errors of grammar and usage; any minor errors do not interfere with meaning.  Language style and word choice are highly effective and enhance meaning.  Style and word choice are appropriate for the assignment. (0.5) | Some errors of grammar and usage; errors do not interfere with meaning.  Language style and word choice are for the most part effective and appropriate for the assignment.  (0.3)  | Major errors of grammar and usage make meaning unclear.  Language style and word choice are ineffective and/or inappropriate. (0.1) 
+DataManagement | Clear explanation of the selected group and how the data was managed. Missing values are properly coded, variable names are recoded to readable names, and factors are given informative labels.  (1.0) | Unclear explanation of the selected group or how the data was managed. Missing values are properly coded, variable names from the data set are renamed, and factors are given informative labels.  (0.7)| Unclear explanation of the selected group or how the data was managed. Missing values are not properly coded, variable names from the data set are not renamed, and factors are not given informative labels.  (0.1)
+Graphs | There are barplots for three different categorical variables with appropriate labels and R code.  A sentence or two explains each barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc.  (0.5) | There are barplots for three different categorical variables but the barplots do not have appropriate labels or R code is not shown. A sentence or two explains each barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc. (0.4) | No barplots are shown in the document.  (0.1)
 
 
-A well-written paper that convinces you the author can fill a gap in the existing scholarship, has a title that is a concise statement of the main topic and identifies the actual variables under investigation and the relationship between them, has an introduction supported with at least five references, has a Methods section that describes the sample, measures, and procedures, and has a section that discusses real implications linked to possible results should receive a 3.  A submission that satisfies two of the three criteria perfectly or most but not all of the three criteria should receive a 2.  A submission that satisfies only one of the three criteria should receive a 1.  If the submission does not render or the submitter did not submit the correct assignment, they should receive a 0.
+* Revise and push your **Research Plan Assignment** to a folder named **ResearchPlan** in your private repository no later than 5:00 PM Friday.  I will grade your **Research Plan Assignment** using the Grading Rubric for **Research Plan Assignment** (PR#2).  I will also check to make sure the document compiles based on the `*.Rmd` and `*.bib` files in your **ResearchPlan** folder.  
+
+#### Grading Rubric for **Research Plan Assignment** (PR#2)
+
+Field      | Excellent          |  Competent      |  Needs Work
+-----------|--------------------|-----------------|-------------------
+Document (*.html) opens without issue and was created using an *Rmd file | Document opens without issue and no author name is present (0.6) | Document opens but author's name is visible (0.4) | Document does not open (0.1)
+Clarity | Few errors of grammar and usage; any minor errors do not interfere with meaning.  Language style and word choice are highly effective and enhance meaning.  Style and word choice are appropriate for the assignment. The title is a concise statement of the main topic that identifies the actual variables under investigation and the relationship between them. (0.6) | Some errors of grammar and usage; errors do not interfere with meaning.  Language style and word choice are for the most part effective and appropriate for the assignment.  The title is not a concise statement of the main topic or does not identify the variables under investigation and the relationship between them (0.4)  | Major errors of grammar and usage make meaning unclear.  Language style and word choice are ineffective and/or inappropriate.  The title is does not identify the variables under investigation of the relationship between them (0.1) 
+Introduction | The introduction describes the question the author intends to investigate and how their research relates to other work in the field.  The literature review justifies the proposed research by identifying a hole in existing scholarship. (0.6) |  The introduction describes the question the author intends to investigate and how their research relates to other work in the field.  The literature review does not justify the proposed research by identifying a hole in existing scholarship. (0.4) | The introduction does not describe the proposed research or identify a hole in existing research. (0.1)
+Organization | There is a **Methods** section that describes how the research was conducted with discussion of the _sample_, _measures_, and _procedures_.  There is an **Implications/Predicted Results** section that discusses real implications linked to possible results. (0.6) | There is a **Methods** section that describes how the research was conducted but no discussion of the _sample_, _measures_, and _procedures_.  There is an **Implications/Predicted Results** but no discussion of real implications linked to possible results. (0.4) | The **Methods** and **Implications/Predicted Results** sections are missing. (0.1)
+Sources | five or more sources less than 10 years old --- references are automatically generated from a Zotero BibTeX file (0.6) | two or more sources less than 10 years old --- references are automatically generated from a Zotero BibTeX file (0.4) | fewer than two sources that are less than 10 years old --- references are not automatically generated from a Zotero BibTeX file (0.1)
+
 
 #### Optional
 * Read chapter 7 of [Reproducible Research with R and RStudio](https://github.com/christophergandrud/Rep-Res-Book).
@@ -221,19 +214,19 @@ A well-written paper that convinces you the author can fill a gap in the existin
 * Watch [Graphing 1 Video](https://www.youtube.com/watch?v=7_b6Rd9Vad8&list=PLDEF0B9CBD27AD37E&index=54).
 * Work on **Univariate Graphing Assignment** PDS.
 * The **Univariate Graphing Assignment** is due NLT 5 PM Friday (Oct 2).  Submit assignment.
-via [http://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Univariate Graphing Assignment** is (http://www.crowdgrader.org/).
+via [http://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Univariate Graphing Assignment** is [https://www.crowdgrader.org/crowdgrader/venues/view_venue/1428](https://www.crowdgrader.org/crowdgrader/venues/view_venue/1428).
 
 #### Grading Rubric for **Univariate Graphing Assignment**  (PR#4)
 
-Does the document have sections that explain the `Purpose of the Study` (0.25), the `Variables` used in the study (0.25), and how the data was managed (0.25)? 
 
-Have the variables proposed for use in the project been labeled and renamed? (0.25)
 
-Are there graphs for at least two of the categorical variables? (0.25) Is there a sentence or two describing what the reader is viewing? (0.25)  Have the *x-* and *y-*axes been labeled appropriately? (0.25)
-
-Is there either a histogram or density plot of one of the numeric variables proposed in the study? 0.5
-
-When describing the distribution of the reported histogram or density plot, does the author describe the shape (0.25) and use appropriate statistics to characterize the center (0.25) and spread (0.25)?
+Field      | Excellent          |  Competent      |  Needs Work
+-----------|--------------------|-----------------|-------------------
+The document (*.html) opens without issue and was created using an *Rmd file. | The document opens without issue and no author name is present. (0.3) | The document opens but author's name is visible (0.2) | The document does not open. (0.1)
+Purpose/Variables | The purpose and goals of the study are clearly explained. The variables (names) and data set (name) the author is working with are described. (0.3) |  The purpose or goals of the study are unclear. Only one of either the variables (names) or the data set (name) are discussed. (0.2) | No discussion of the purpose or goals of the study.  Neither the variables (names) or data set (name) are discussed. (0.1)
+Clarity | Few errors of grammar and usage; any minor errors do not interfere with meaning.  Language style and word choice are highly effective and enhance meaning.  Style and word choice are appropriate for the assignment. (0.3) | Some errors of grammar and usage; errors do not interfere with meaning.  Language style and word choice are for the most part effective and appropriate for the assignment.  (0.2)  | Major errors of grammar and usage make meaning unclear.  Language style and word choice are ineffective and/or inappropriate. (0.1) 
+DataManagement | Clear explanation of the selected group and how the data was managed. Missing values are properly coded, variable names are recoded to readable names, and factors are given informative labels.  (0.3) | Unclear explanation of the selected group or how the data was managed. Missing values are properly coded, variable names from the data set are renamed, and factors are given informative labels.  (0.2)| Unclear explanation of the selected group or how the data was managed. Missing values are not properly coded, variable names from the data set are not renamed, and factors are not given informative labels.  (0.1)
+Graphs | There are at least two different bar plots of categorical variables with appropriate labels and R code.  A sentence or two explains each barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc.  There is a least one histogram or density plot of a numeric variable proposed in the study.  When describing the distribution of the numeric variable, the author describes the shape and uses appropriate statistics to characterize the center and spread of the distribution. (1.8) | There is only one bar plot of a categorical variable with appropriate labels and R code.  A sentence or two explains the barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc.  There is a least one histogram or density plot of a numeric variable proposed in the study.  When describing the distribution of the numeric variable, the author describes the shape and uses inappropriate statistics to characterize the center and spread of the distribution. (1.4) | No barplots, histograms, or density plots are shown in the document.  (0.1)
 
 #### Optional
 * Read chapter 8 of [Reproducible Research with R and RStudio](https://github.com/christophergandrud/Rep-Res-Book).
@@ -248,25 +241,21 @@ When describing the distribution of the reported histogram or density plot, does
  
 * Work on **Bivariate Graphing Assignment**. 
 * **Bivariate Graphing Assignment** due NLT 5 PM Friday (Oct 9).  Submit assignment
-via [http://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Bivariate Graphing Assignment** is (http://www.crowdgrader.org/)
+via [https://www.crowdgrader.org](http://www.crowdgrader.org).  The direct link for the **Bivariate Graphing Assignment** is [https://www.crowdgrader.org/crowdgrader/venues/view_venue/1429](https://www.crowdgrader.org/crowdgrader/venues/view_venue/1429)
 
 **Bivariate Graphing Assignment** 
 
 This is a continuation of the material submitted for the **Univariate Graphing Assignment** assignment submitted in week07.  You should revise your assignment as needed from last week and add one bivariate graph of your principal constructs and one one multivariate graph of your principal constructs.
 
-#### Grading Rubric for **Bivariate Graphing Assignment** (PR#5)
+#### Grading Rubric for **Bivariate Graphing Assignment**  (PR#5)
 
-Does the document have sections that explain the `Purpose of the Study` (0.25), the `Variables` used in the study (0.25), and how the data was managed (0.25)? 
-
-Are there graphs for at least two of the categorical variables? (0.25) Is there a sentence or two describing what the reader is viewing? (0.25)  
-
-Is there either a histogram or density plot of one of the numeric variables proposed in the study? (0.25)
-
-Is there a bivariate graph of the principal constructs the researcher is proposing to study? (0.50)
-
-Is there a multivariate graph of the principal constructs the researcher is proposing to study? (0.50)
-
-Do all graphs have the *x-* and *y-*axes labeled appropriately? (0.25). Do all graphs have descriptive titles? (0.25)
+Field      | Excellent          |  Competent      |  Needs Work
+-----------|--------------------|-----------------|-------------------
+The document (*.html) opens without issue and was created using an *Rmd file. | The document opens without issue and no author name is present. (0.3) | The document opens but author's name is visible (0.2) | The document does not open. (0.1)
+Purpose/Variables | The purpose and goals of the study are clearly explained. The variables (names) and data set (name) the author is working with are described. (0.3) |  The purpose or goals of the study are unclear. Only one of either the variables (names) or the data set (name) are discussed. (0.2) | No discussion of the purpose or goals of the study.  Neither the variables (names) or data set (name) are discussed. (0.1)
+Clarity | Few errors of grammar and usage; any minor errors do not interfere with meaning.  Language style and word choice are highly effective and enhance meaning.  Style and word choice are appropriate for the assignment. (0.3) | Some errors of grammar and usage; errors do not interfere with meaning.  Language style and word choice are for the most part effective and appropriate for the assignment.  (0.2)  | Major errors of grammar and usage make meaning unclear.  Language style and word choice are ineffective and/or inappropriate. (0.1) 
+DataManagement | Clear explanation of the selected group and how the data was managed. Missing values are properly coded, variable names are recoded to readable names, and factors are given informative labels.  (0.3) | Unclear explanation of the selected group or how the data was managed. Missing values are properly coded, variable names from the data set are renamed, and factors are given informative labels.  (0.2)| Unclear explanation of the selected group or how the data was managed. Missing values are not properly coded, variable names from the data set are not renamed, and factors are not given informative labels.  (0.1)
+Graphs | There are at least two different bar plots of categorical variables with appropriate labels and R code.  A sentence or two explains each barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc.  There is a least one histogram or density plot of a numeric variable proposed in the study.  When describing the distribution of the numeric variable, the author describes the shape and uses appropriate statistics to characterize the center and spread of the distribution.  There are at least two bivariate/multivariate graphs of the principal constructs the researcher is proposing to study. (1.8) | There is only one bar plot of a categorical variable with appropriate labels and R code.  A sentence or two explains the barplot mentioning features that may be present such as unexpected results, uneven distributions, extra categories, unbalanced experiments, missing values, etc.  There is a least one histogram or density plot of a numeric variable proposed in the study.  When describing the distribution of the numeric variable, the author describes the shape and uses inappropriate statistics to characterize the center and spread of the distribution.  There is only one bivariate/multivariate graph of the principal constructs the researcher is proposing to study. (1.4) | No barplots, histograms, density plots, or bivariate/multivariate graphs are shown in the document.  (0.1)
 
 #### Optional
 * Read chapter 9 of [Reproducible Research with R and RStudio](https://github.com/christophergandrud/Rep-Res-Book).
